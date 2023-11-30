@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoomBookExample</string>
+    <string name="choose_room_prompt">请选房间</string>
+    <string name="prompt">请选房间</string>
+</resources>

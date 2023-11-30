@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coffee_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:id="@+id/coffee_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Latte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latte" />
+
+        <RadioButton
+            android:id="@+id/Cappuccino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cappuccino" />
+
+        <RadioButton
+            android:id="@+id/Espresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Espresso" />
+
+        <RadioButton
+            android:id="@+id/Americano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Americano" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/cappuccino" />
+
+</LinearLayout>

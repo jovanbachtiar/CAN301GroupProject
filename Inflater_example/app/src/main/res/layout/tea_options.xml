@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tea_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RadioGroup
+        android:id="@+id/tea_choices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/peppermint_tea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peppermint tea" />
+
+        <RadioButton
+            android:id="@+id/jasmine_tea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jasmine tea" />
+
+        <RadioButton
+            android:id="@+id/longjing_tea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longjing tea" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/longjing_tea" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RoomBookExample</string>
+    <string name="choose_room_prompt">Please choose your room</string>
+
+    <string name="prompt">Choose a room</string>
+    <string-array name="avail_rooms">
+        <item>Room 2012: 200 yuan</item>
+        <item>Room 2008: 300 yuan</item>
+        <item>Room 5003: 400 yuan</item>
+        <item>Room 7010: 500 yuan</item>
+    </string-array>
+
+    <string-array name="bank_cards">
+        <item>Bank of Lukewarm</item>
+        <item>Nateast Bank</item>
+        <item>Loyal bank of West Lukewarm Kingdom</item>
+    </string-array>
+</resources>
